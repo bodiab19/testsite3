@@ -1,0 +1,404 @@
+
+/* Header */
+.account_block{
+    margin-top: 40px; 
+    padding-left: 5%;
+}
+
+.account_block a{
+    font-family: 'LatoWeb';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #909090;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.logo_block{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart_block{
+    padding-right: 5%;
+}
+
+.cart_block p{
+    float: right;
+    font-family: 'LatoWeb';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #909090;
+    margin-top: 40px;
+}
+
+.cart_block p i{
+    font-size: 16px;
+    color: #03a9f5;
+    padding-right: 10px;
+}
+
+.bg-light{
+    background-color: #03a9f5!important;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar-brand{
+    display: none;
+}
+
+.navbar-toggler{
+    color: #000;
+    font-size: 30px;
+}
+
+.logo_mobile{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-link{
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#000;
+    margin-right: 50px;
+}
+
+.nav-link a{
+    font-family: 'LatoWeb';
+    font-size: 12px;
+    text-transform: uppercase;
+    color:#000;
+    margin-right: 50px;
+}
+/* End Header */
+
+/* Search Block */
+.search_block{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    height: 620px;
+    text-align: center;
+    background-size: cover;
+}
+
+.search_form{
+    padding-top: 115px;
+}
+
+.search_form input{
+    height: 40px;
+    width: 400px;
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.search_form button{
+    width: 170px;
+    height: 40px;
+    font-family: 'LatoWebBold';
+    font-size: 14px;
+    background-color: #2dca73;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.top_banner{
+    text-align: center;
+}
+
+.top_banner h1{
+    font-family: 'LatoWeb';
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* End Search Block */
+
+
+/* Tab */
+.tab{
+	margin: 20px;
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+ 
+.tab:hover {
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+}
+
+#tabs .tab{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+    background-color: #f0f4f7;
+    font-family: 'LatoWeb';
+    font-size: 12px;
+    color: #909090;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#tabs .pick{
+    background-color: #03a9f5;
+    color: #fff;
+}
+
+#tabs .tabContent{
+    position: relative;
+    top:-1px;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+#tabs .hide{
+    display: none;
+}
+
+#tabs .show{
+    display: block;
+}
+
+.stars{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.tabContent h4{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #434f5b;
+}
+
+.tabContent p{
+    color: #434f5b;
+}
+
+/* End Tab */
+
+.down_banner img{
+    width: 370px;
+    height: 370px;
+}
+
+.hover_block{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 1000;
+    width: 370px;
+    height: 370px;
+    text-align: center;
+    left:120px;
+}
+
+.hover_block h6{
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    color: #fff;
+    margin-top: 120px;
+}
+
+.hover_block p{
+    font-family: 'LatoWeb';
+    font-size: 24px;
+    color: #fff;
+}
+
+.hover_block button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.work_block{
+    text-align: center;
+    background-image: url(../img/bg2.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.work_block h1{
+    font-family: 'LatoWeb';
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.work_block h6{
+    font-family: 'LatoWebBold';
+    font-size: 14px;
+    color: #434f5b;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.work_block p{
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    color: #909090;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.fish{
+    position: absolute;
+    right:2%;
+}
+
+
+/* Slider */
+.slider_block{
+    text-align: center;
+}
+
+.slider_block h1{
+    font-family: 'LatoWeb';
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.carousel-control-prev{
+    font-size: 40px;
+    color:#000;
+}
+
+.carousel-control-prev:hover{
+    color:#000;
+}
+
+.carousel-control-next:hover{
+    color:#000;
+}
+
+.carousel-control-next{
+    font-size: 40px;
+    color:#000;
+}
+
+/* End Slider */
+
+.left_bl{
+    float: left;
+    margin-bottom: 35px
+}
+
+.right_bl{
+    text-align: left;
+    margin-left: 35px;
+    float: left;
+}
+
+.right_bl .stars{
+    margin-top: 25px;
+}
+
+.right_bl h4{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #434f5b;
+}
+
+.right_bl p{
+    color: #434f5b; 
+}
+
+.right_bl button{
+    background-color: #fff;
+    border: 1px solid #f0f4f7;
+    color: #909090;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+/* Footer */
+footer{
+    border-top: 3px solid #03a9f5;
+    padding-top: 35px;
+}
+
+footer h6{
+    font-family: 'LatoWebBold';
+    font-size: 14px;
+    color: #434f5b;
+    text-transform: uppercase;
+    
+}
+
+footer p{
+    font-family: 'LatoWeb';
+    font-size: 14px;
+    color: #909090;
+}
+
+footer p span{
+    color: #03a9f5;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand{
+        display: block;
+    }
+    
+    .um_head{
+        display: none;
+    }
+    
+    .search_block{
+        height: 300px;
+    }
+    
+    .search_form input{
+        width: 290px;
+    }
+    
+    .down_banner{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .slider_block{
+        display: none;
+    }
+    
+
+    
+}
+
+
+
+
+/* End Footer */
